@@ -4,19 +4,32 @@ CHTTPParser
 [![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Platforms Linux](https://img.shields.io/badge/Platforms-Linux-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
-[![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](https://zewo-slackin.herokuapp.com)
+[![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](http://slack.zewo.io)
 
-**HTTP** [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 2.2**.
+**CHTTPParser** is an HTTP [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 2.2**.
 
 ## Installation
 
 - Install [`http_parser`](https://github.com/Zewo/http_parser)
 
+### Homebrew
 ```bash
-$ git clone https://github.com/Zewo/http_parser.git
-$ cd http_parser
+$ brew tap zewo/tap
+$ brew install http_parser
+```
+
+### Ubuntu/Debian
+```bash
+$ echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
+$ sudo apt-get update
+$ sudo apt-get install http_parser
+```
+
+### Source
+```bash
+$ git clone https://github.com/Zewo/http_parser.git && cd http_parser
 $ make
-$ dpkg -i http_parser.deb
+$ (sudo) make install
 ```
 
 - Add `CHTTPParser` to your `Package.swift`
@@ -26,7 +39,7 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 1)
+		.Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 2)
 	]
 )
 
@@ -34,11 +47,11 @@ let package = Package(
 
 ## Community
 
-[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](https://zewo-slackin.herokuapp.com)
+[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](http://slack.zewo.io)
 
-Join us on [Slack](https://zewo-slackin.herokuapp.com).
+Join us on [Slack](http://slack.zewo.io).
 
 License
 -------
 
-**URI** is released under the MIT license. See LICENSE for details.
+**CHTTPParser** is released under the MIT license. See LICENSE for details.
