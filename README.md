@@ -14,22 +14,22 @@ CHTTPParser
 
 ### Homebrew
 ```bash
-$ brew tap zewo/tap
-$ brew install http_parser
+brew tap zewo/tap
+brew install http_parser
 ```
 
 ### Ubuntu/Debian
 ```bash
-$ echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
-$ sudo apt-get update
-$ sudo apt-get install http-parser
+echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install http-parser
 ```
 
 ### Source
 ```bash
-$ git clone https://github.com/Zewo/http_parser.git && cd http_parser
-$ make
-$ (sudo) make install
+git clone https://github.com/Zewo/http_parser.git && cd http_parser
+make
+sudo make install
 ```
 
 - Add `CHTTPParser` to your `Package.swift`
