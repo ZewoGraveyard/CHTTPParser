@@ -1,36 +1,14 @@
 CHTTPParser
 ==========
 
-[![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![Platforms Linux](https://img.shields.io/badge/Platforms-Linux-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
-[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
-[![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](http://slack.zewo.io)
+[![Swift][swift-badge]][swift-url]
+[![Platform][platform-badge]][platform-url]
+[![License][mit-badge]][mit-url]
+[![Slack][slack-badge]][slack-url]
 
-**CHTTPParser** is an HTTP [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 2.2**.
+**CHTTPParser** is an HTTP [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 3.0**.
 
-## Installation
-
-- Install [`http_parser`](https://github.com/Zewo/http_parser)
-
-### Homebrew
-```bash
-$ brew tap zewo/tap
-$ brew install http_parser
-```
-
-### Ubuntu/Debian
-```bash
-$ echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
-$ sudo apt-get update
-$ sudo apt-get install http-parser
-```
-
-### Source
-```bash
-$ git clone https://github.com/Zewo/http_parser.git && cd http_parser
-$ make
-$ (sudo) make install
-```
+## Package
 
 - Add `CHTTPParser` to your `Package.swift`
 
@@ -39,7 +17,7 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 2)
+        .Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 4)
     ]
 )
 
@@ -55,3 +33,13 @@ License
 -------
 
 **CHTTPParser** is released under the MIT license. See LICENSE for details.
+
+[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
+[swift-url]: https://swift.org
+[platform-badge]: https://img.shields.io/badge/Platform-Mac%20%26%20Linux-lightgray.svg?style=flat
+[platform-url]: https://swift.org
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
+[mit-url]: https://tldrlegal.com/license/mit-license
+[slack-image]: http://s13.postimg.org/ybwy92ktf/Slack.png
+[slack-badge]: https://zewo-slackin.herokuapp.com/badge.svg
+[slack-url]: http://slack.zewo.io
