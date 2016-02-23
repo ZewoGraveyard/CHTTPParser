@@ -22,7 +22,7 @@ $ brew install http_parser
 ```bash
 $ echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
 $ sudo apt-get update
-$ sudo apt-get install http_parser
+$ sudo apt-get install http-parser
 ```
 
 ### Source
@@ -38,9 +38,9 @@ $ (sudo) make install
 import PackageDescription
 
 let package = Package(
-	dependencies: [
-		.Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 2)
-	]
+    dependencies: [
+        .Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 2)
+    ]
 )
 
 ```
