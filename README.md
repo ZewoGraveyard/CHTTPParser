@@ -12,13 +12,15 @@ CHTTPParser
 
 - Install [`http_parser`](https://github.com/Zewo/http_parser)
 
-### Homebrew
+### OS X
+
 ```bash
 brew tap zewo/tap
 brew install http_parser
 ```
 
-### Ubuntu/Debian
+### Linux
+
 ```bash
 echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
 sudo apt-get update
@@ -26,6 +28,7 @@ sudo apt-get install http-parser
 ```
 
 ### Source
+
 ```bash
 git clone https://github.com/Zewo/http_parser.git && cd http_parser
 make
