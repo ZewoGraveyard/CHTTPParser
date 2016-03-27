@@ -8,36 +8,7 @@ CHTTPParser
 
 **CHTTPParser** is an HTTP [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 3.0**.
 
-<<<<<<< HEAD
 ## Installation
-
-- Install [`http_parser`](https://github.com/Zewo/http_parser)
-
-### OS X
-
-```bash
-brew tap zewo/tap
-brew install http_parser
-```
-
-### Linux
-
-```bash
-echo "deb [trusted=yes] http://apt.zewo.io/deb ./" | sudo tee --append /etc/apt/sources.list
-sudo apt-get update
-sudo apt-get install http-parser
-```
-
-### Source
-
-```bash
-git clone https://github.com/Zewo/http_parser.git && cd http_parser
-make
-sudo make install
-```
-=======
-## Package
->>>>>>> build-c
 
 - Add `CHTTPParser` to your `Package.swift`
 
