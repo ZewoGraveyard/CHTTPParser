@@ -8,6 +8,8 @@ CHTTPParser
 
 **CHTTPParser** is an HTTP [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 3.0**.
 
+This is a fork/source-dump of [node.js's http-parser](https://github.com/nodejs/http-parser).
+
 ## Installation
 
 - Add `CHTTPParser` to your `Package.swift`
