@@ -1,3 +1,4 @@
-XcodeDevelopment/
-.build
-.xcodeproj
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
