@@ -1,43 +1,21 @@
-CHTTPParser
-==========
+# CHTTPParser
 
-[![Swift][swift-badge]][swift-url]
 [![Platform][platform-badge]][platform-url]
 [![License][mit-badge]][mit-url]
 [![Slack][slack-badge]][slack-url]
 
-**CHTTPParser** is an HTTP [(RFC 2616)](https://tools.ietf.org/html/rfc2616) parser for **Swift 3.0**.
-
-This is a fork/source-dump of [node.js's http-parser](https://github.com/nodejs/http-parser).
-
-## Installation
-
-- Add `CHTTPParser` to your `Package.swift`
-
-```swift
-import PackageDescription
-
-let package = Package(
-    dependencies: [
-        .Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 4)
-    ]
-)
-
-```
+CHTTPParser is a clone of [node.js's http-parser](https://github.com/nodejs/http-parser).
 
 ## Community
 
-[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](http://slack.zewo.io)
+[![Slack][slack-image]][slack-url]
 
-Join us on [Slack](http://slack.zewo.io).
+We have an amazing community of open and welcoming developers. Join us on [Slack][slack-url] to get to know us!
 
-License
--------
+## License
 
-**CHTTPParser** is released under the MIT license. See LICENSE for details.
+All **Zewo** modules are released under the MIT license. See LICENSE for details.
 
-[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
-[swift-url]: https://swift.org
 [platform-badge]: https://img.shields.io/badge/Platform-Mac%20%26%20Linux-lightgray.svg?style=flat
 [platform-url]: https://swift.org
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
